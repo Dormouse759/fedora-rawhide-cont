@@ -1,5 +1,6 @@
 #!/usr/bin/sh
 
-cp repro.py /scipy/scipy-1.2.1/build/lib.linux-x86_64-3.7/
-cd /scipy/scipy-1.2.1/build/lib.linux-x86_64-3.7/
-python3 repro.py
+cd hypothesis-hypothesis-python-5.5.1/hypothesis-python/
+sed -i "s/35,36,37,38/39/g" tox.ini
+tox
+

@@ -1,7 +1,0 @@
-[koji]
-name=koji
-baseurl=http://kojipkgs.fedoraproject.org/repos/rawhide/latest/x86_64/
-cost=2000
-enabled=1
-gpgcheck=0
-
